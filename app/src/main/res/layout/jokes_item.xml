@@ -6,6 +6,7 @@
     android:layout_marginStart="14dp"
     android:layout_marginEnd="14dp"
     android:id="@+id/lv_item"
+    android:background="@color/white"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
@@ -23,6 +24,7 @@
         android:id="@+id/tv_created_at"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:text="2020-01-05 13:42:18.823766"
         app:layout_constraintTop_toBottomOf="@id/tv_jokes"
         app:layout_constraintEnd_toEndOf="parent" />
